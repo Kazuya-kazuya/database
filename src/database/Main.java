@@ -65,9 +65,7 @@ public class Main {
 		Connection con = DriverManager.getConnection(
         		"jdbc:mysql://"
         		+ serverName + "/"
-        		+ DBName
-        		//+ "?useUnicode=true&characterEncoding=utf8"
-        		,
+        		+ DBName,
         		userName,
         		password);
 
